@@ -9,7 +9,7 @@ import { Component } from "@angular/core";
 export class NewTransferComponent{
     public valor: number;
     public destino: number;
-
+    //teste
     public transfer(): void{
         console.log("Solicitada nova transferência");
         console.log("valor: ", this.valor);
